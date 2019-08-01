@@ -1,0 +1,17 @@
+https://www.jianshu.com/p/0fa03e470147
+pip install virtualenv
+virtualenv [虚拟环境的名字]
+source /path/to/virtualenv/bin/activate
+
+--退出
+deactivate
+
+pip install MySQL-python
+
+pip install -r requirements.txt
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
+python manage.py runserver 0.0.0.0:8000 --insecure
